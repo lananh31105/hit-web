@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .anh{
+            position: relative;
+        }
+        .banner img{
+            width: 100%;
+            height: 100%;            
+        }
+        .father{
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            top:0;
+            width: 100%;
+        }
+        .father ul a{            
+            display: flex;
+            top: 0;
+            text-decoration: none;
+            list-style: none;
+            flex-direction: row;
+            margin-right: 0;
+            color: white;        
+        }
+        .father ul{
+            display: flex;
+            gap:10px;
+            margin-top: 15px;
+            margin-right: 10px;
+        }
+        .father p{
+            margin-top: 15px;
+            margin-left: 10px;            
+        }        
+        .son{            
+            position: absolute;
+            top:200px;
+            color: white;
+            margin-left: 50px;
+        }
+        .son h2{
+            margin-left: 570px;
+        }
+        .son p{
+            width: 115px;
+            height: 35px;
+            background-color: red;
+            margin-left: 565px;
+            padding-left: 6px;
+            padding-top: 7px;
+            margin-top: 100px;            
+        }
+        .son h4{
+            margin-left: 250px;
+        }
+        .doanhai{
+            display: flex;
+            position: absolute;
+            top: 410px;
+            background-color: white;
+            padding-left: 70px;
+            padding-right: 70px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }       
+        .doanba1 {
+            display: flex;
+            gap: 50px;
+            margin-left: 65px;
+            
+        }
+        .doanba{
+            position: absolute;
+            top: 600px;
+            background-color: rgb(231, 229, 229);
+            right: 0px;
+            left: 0px; 
+            padding-bottom: 50px; 
+            padding-top: 30px;                   
+        }
+        .doanba h2{
+            margin-left: 500px;
+        }
+        .doanba > h3{
+            margin-left: 450px;
+        }
+        .anh2 h3{
+            margin-left: 0px;
+            background-color: white;
+            padding-left: 175px;
+            margin-top: 0px;
+        }
+        .anh3 > h3{
+            margin-left: 0px;
+            background-color: white;
+            padding-left: 165px;
+        }
+        .doanba2{
+            display: flex;
+            margin-top: 60px;
+            margin-left: 475px;
+            gap:50px;
+        }
+        .doancuoi{
+            display: flex;
+            position: absolute;
+            background-color: white;
+            top: 1000px;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="anh">
+            <img src="./img/banner.jpg" alt="">
+        </div>
+        <div class="father">
+            <p style="color: white;"><span style="font-weight: 200;">SPATIAL</span> BY TEMPLATED</p>       
+            <ul>
+                <a href=""><li>HOME</li></a>
+                <a href=""><li>GENERIC</li></a>
+                <a href=""><li>ELEMENTS</li></a>                
+            </ul>
+        </div>
+        <div class="son">
+            <h2>SPATIAL</h2>
+            <h4>LOREM ISPUT DOLOR SIT AMET NULLAM CONSEQUET INTERDUM VIVAMUS DONCE SED LIBERO</h4>
+            <p>GET STARTED</p>
+        </div>
+        <div class="doanhai">
+            <div class="phai">
+                <h2>MAECENAS LUCTUS LECTUS</h2>
+                <h4 style="color: grey;">PERSPICIATIS DOLOREMQUE RECUSANDEA DOLOR</h4>
+            </div>
+            <div class="trai">
+                <h5 style="color: grey;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est assumenda ipsum aliquid distinctio minus iste deleniti commodi maiores laborum optio, reiciendis odit asperiores molestiae inventore beatae, neque quidem voluptatibus vel.</h5>
+                <h5 style="color: grey;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, earum hic. Quo, quae adipisci, nulla, fuga saepe atque laudantium aperiam magni numquam perferendis provident impedit sapiente enim dicta architecto cum!</h5>
+            </div>
+        </div>
+        <div class="doanba">
+            <h2>FUSCE ULTRICES FRINGILLA</h2>
+            <h3 style="color: grey;">MAECENAS VITEA TELLUS EUGIAT ELEIFEND</h3>
+            <div class="doanba1">
+                <div class="anh2">
+                    <img src="./img/pic02.jpg" alt="">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                </div>
+                <div class="anh3">
+                    <img src="./img/pic03.jpg" alt="">
+                    <h3>Ipsum dolor amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="doanba2">
+                <h3 style="background-color: red; color: white; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px;">NULLA LUCTUS</h3>
+                <h3 style="background-color: black; color: white;padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px;">SED VULPUTATE</h3>
+            </div>
+        </div>
+        <div class="doancuoi">
+            <i class="fa-brands fa-facebook-f fa-lg" style="color: #919192;"></i>
+            <i class="fa-brands fa-twitter fa-lg" style="color: #969696;"></i>
+            <i class="fa-brands fa-instagram fa-lg" style="color: #adabab;"></i>
+        </div>
+    </div>
+    
+</body>
+</html>
